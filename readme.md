@@ -24,9 +24,9 @@ This file contains a list of all the tasks that remain, in basically the same or
 
 ~~+ Use left and right auto margin to center both the header and article sections horizontally on the page.~~
 
-+ Horizontally center the header h1 elements and use the font and text-transform properties to visually distinguish class .small from the other h1. Try to set it to 900-weight, Lato font (with a sans-serif fallback), in all caps. It should probably also be smaller in size.
+~~+ Horizontally center the header h1 elements and use the font and text-transform properties to visually distinguish class .small from the other h1. Try to set it to 900-weight, Lato font (with a sans-serif fallback), in all caps. It should probably also be smaller in size.~~
 
-+ Use the float property to position the article figure on the right-hand side of the text.
+~~+ Use the float property to position the article figure on the right-hand side of the text.~~
 
 + Use the font property to style the figcaption so that the size is smaller and the font is lighter-weight and visually distinct (a different font-family) from the body text. Remember, for any font to load, it has to be one the user has on their computer or it has to be linked in the HTML or loaded from somewhere.
 
