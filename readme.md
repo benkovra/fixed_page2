@@ -13,7 +13,7 @@ This file contains a list of all the tasks that remain, in basically the same or
 
 ~~+ The stylesheet needs to be hooked up to the page. In the head section, add a link to our external stylesheet: it's named style.css and it's located inside the /css folder. You will need to use the <link> tag for this and you will need to make certain the path is correct. You can use the browser's inspector to check.~~
 
-+ One image still needs to be added. Inside the article element, there's a figure without an image. Inside the figure element, add an image element that links to the dodo.jpg file inside the /img folder. Don't forget to use the alt attribute and make sure the file path is correct. Again, you can use the browser's inspector to check.
+~~+ One image still needs to be added. Inside the article element, there's a figure without an image. Inside the figure element, add an image element that links to the dodo.jpg file inside the /img folder. Don't forget to use the alt attribute and make sure the file path is correct. Again, you can use the browser's inspector to check.~~
 
 ## In /css/style.css
 ~~+ Change the default font on the body from Arial to 'Gentium Book Basic' with a fallback to serif, so it will be inherited by the rest of the elements. ~~
@@ -30,7 +30,7 @@ This file contains a list of all the tasks that remain, in basically the same or
 
 + Use the font property to style the figcaption so that the size is smaller and the font is lighter-weight and visually distinct (a different font-family) from the body text. Remember, for any font to load, it has to be one the user has on their computer or it has to be linked in the HTML or loaded from somewhere.
 
-+ Use auto margins, flex display, and justify-content to evenly distribute (space-evenly) the pagination buttons at the bottom of the page. You might also style the border of the buttons to be thicker or thinner, or have another appearance as you wish.
+~~+ Use auto margins, flex display, and justify-content to evenly distribute (space-evenly) the pagination buttons at the bottom of the page. You might also style the border of the buttons to be thicker or thinner, or have another appearance as you wish.~~
 
 ~~+ Add your name to the footer copyright.~~
 

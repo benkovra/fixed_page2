@@ -5,21 +5,23 @@ Remember the cascade:
 --*/
 html {
 	font-size: 62.5%;
+  background-color: rgb(37, 47, 61);
 }
 img {
 	width: 100%;
 	height: auto;
 }
 body {
-  color: #444;
+  color: rgb(255, 255, 255);
   font-size: 1.6rem;
   font-family: 'Gentium Book Basic', serif;
+  initial-letter: 5;
 }
 p {
   margin-bottom: .67em;
 }
 nav, footer {
-  background-color: #444;
+  background-color: rgb(0, 23, 58);
 }
 footer {
   text-align: center;
@@ -53,6 +55,7 @@ header {
   width: 510px;
   margin: 2em auto;
   text-align: center;
+ 
 }
 header img {
   width: 100%;
@@ -62,13 +65,14 @@ header img {
 header h1 {
   margin: 0 auto;
   padding: 0 auto;
-}
+ }
 .small {
   margin-top: 1em;
   font-size: 18px;
   text-transform: uppercase;
   font-family: Lato, sans-serif;
   font-weight: 900;
+  color: rgb(116, 116, 116);
 }
 /*-- Article Styles--*/
 article {
@@ -83,27 +87,33 @@ article figure {
   float: right;
 }
 article figcaption {
-  font-size: inherit;
+  font-size: medium ;
+  color:rgb(116, 116, 116);
 }
 .pagination {
   margin-top: 2em;
   margin-bottom: 2em;
   width: 96%;
+  margin: 1 1 auto;
+  display: flex;
+  justify-content: space-evenly;
 }
 a.button {
   border: 2px solid #888;
   padding: .4em 1em .4em 1em;
   text-decoration: none;
   color: #888;
+  background-color: rgb(0, 42, 105);
   border-radius: 200px;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 80%;
+ 
 }
 a.button:hover, a.button:active {
-  border: 1px solid #444;
+  border: 1px solid rgb(255, 255, 255);
   text-decoration: none;
-  color: #222;
+  color: rgb(255, 255, 255);
 }
 /*-- changes header and article width on small screens --*/
 @media screen and (max-width: 768px) {
