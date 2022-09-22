@@ -122,5 +122,8 @@ a.button:hover, a.button:active {
   article {width: 96%;}
 }
 .dropcap {
-  font-size: 200%;
+  float: left;
+  line-height: 80%;
+  width: .7em;
+  font-size: 400%;
 }
